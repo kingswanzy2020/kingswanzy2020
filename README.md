@@ -2,7 +2,7 @@
 
 ## Hi there, am Ahmed, an AWS DevOps Engineer 👋
 
-👋 Junior AWS DevOps Engineer passionate about cloud infrastructure & automation<br/>
+👋 Passionate about cloud infrastructure & automation<br/>
 ☁️ Hands-on with AWS, CI/CD pipelines, Docker, and Terraform<br/>
 🔧 Experience with monitoring, deployments, and IaC best practices<br/>
 💡 Always learning — currently exploring Kubernetes and serverless<br/>
