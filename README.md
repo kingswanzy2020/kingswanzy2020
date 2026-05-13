@@ -146,12 +146,12 @@ Built a production-grade, fully serverless eBook lead capture platform deployed 
 
 | Certification | Issuer |
 |---|---|
+| ✅ AWS Solutions Architect Associate | Amazon Web Services |
 | ✅ AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services |
 | ✅ Docker Training — Absolute Beginner | KodeKloud |
 | ✅ KodeKloud Engineer — Docker Level 1 | KodeKloud |
 | ✅ Introduction to DevOps | IBM |
 | ✅ Linux Commands & Shell Scripting | IBM |
-| 🔄 AWS Solutions Architect Associate *(in progress)* | Amazon Web Services |
 
 ---
 
