@@ -26,7 +26,7 @@ containers: Docker · Kubernetes · Helm · Amazon EKS
 iac:        CloudFormation · Terraform (in progress) · AWS CDK
 cicd:       GitHub Actions · AWS CodePipeline · Jenkins
 monitoring: Prometheus · Grafana · ELK Stack · CloudWatch
-cert:       AWS Certified Cloud Practitioner (CLF-C02)
+cert:       AWS Certified Solutions Architect Associate
 currently:  Deepening Kubernetes, Terraform, and AI-powered DevOps pipelines
 ```
 
@@ -146,7 +146,7 @@ Built a production-grade, fully serverless eBook lead capture platform deployed 
 
 | Certification | Issuer |
 |---|---|
-| ✅ AWS Solutions Architect Associate | Amazon Web Services |
+| ✅ AWS Certified Solutions Architect Associate | Amazon Web Services |
 | ✅ AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services |
 | ✅ Docker Training — Absolute Beginner | KodeKloud |
 | ✅ KodeKloud Engineer — Docker Level 1 | KodeKloud |
