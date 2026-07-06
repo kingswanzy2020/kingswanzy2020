@@ -124,11 +124,11 @@ Automated code reviewer wired into the PR workflow. Every PR triggers a diff ana
 ### ⚡ [Production Serverless Lead Capture Platform](https://github.com/kingswanzy2020/Projects/tree/main/aws/serverless-lead-capture)
 **`Lambda` `API Gateway` `DynamoDB` `S3` `CloudFront` `Route 53` `SES` `ACM`**
 
-End-to-end serverless platform live at a custom domain (`kahmedt.com`) with global CDN delivery. Visitor submits a form → Lambda fires SES email to the business owner, writes the lead to DynamoDB, and logs to CloudWatch — all within milliseconds, with no servers to manage.
+End-to-end serverless platform that ran in production at a custom domain (`kahmedt.com`) with global CDN delivery. Visitor submits a form → Lambda fires SES email to the business owner, writes the lead to DynamoDB, and logs to CloudWatch — all within milliseconds, with no servers to manage.
 
 | Outcome | Detail |
 |---|---|
-| 🌍 **Production-deployed** | Live on `kahmedt.com` with ACM TLS, CloudFront, and Route 53 DNS |
+| 🌍 **Production-deployed** | Ran at `kahmedt.com` with ACM TLS, CloudFront, and Route 53 DNS (decommissioned after project completion) |
 | 🔒 **Least-privilege Lambda** | Role scoped to exactly `dynamodb:PutItem` + `ses:SendEmail` — nothing more |
 | 🛠️ **Real debugging** | Resolved production CORS misconfiguration, DNS propagation delays, and ACM us-east-1 region constraint |
 
