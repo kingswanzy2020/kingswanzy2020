@@ -193,17 +193,15 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
 <div align="center">
 
-[![Ahmed's GitHub stats](https://github-readme-stats.vercel.app/api?username=kingswanzy2020&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-
-![Streak](https://nirzak-streak-stats.vercel.app/?user=kingswanzy2020&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kingswanzy2020&theme=tokyonight&hide_border=true&layout=compact&count_private=true)
+<img src="github-metrics.svg" alt="GitHub metrics" width="100%"/>
 
 </div>
+
+<sub>Generated daily inside this repo by a [lowlighter/metrics](https://github.com/lowlighter/metrics) GitHub Action — no external image service to break.</sub>
 
 ---
 
@@ -226,8 +224,6 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 
 [![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-tetteh-76a538126)
 [![Email](https://img.shields.io/badge/Send%20an%20Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kingsleyswanzy@gmail.com)
-
-[![](https://visitcount.itsvg.in/api?id=kingswanzy2020&icon=0&color=1)](https://visitcount.itsvg.in)
 
 </div>
 
