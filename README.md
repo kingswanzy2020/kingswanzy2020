@@ -1,5 +1,8 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:1F6FEB,100:39D353&height=180&section=header&text=Ahmed%20Tetteh&fontSize=54&fontColor=ffffff&animation=fadeIn&desc=DevOps%20%7C%20Cloud%20%7C%20Platform%20Engineering&descSize=18&descAlignY=75" alt="banner" width="100%"/>
+
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=1F8EF1&center=true&vCenter=true&width=780&lines=Ahmed+Tetteh+—+DevOps+Engineer;AWS+%7C+Kubernetes+%7C+GitOps+%7C+Terraform;Pipelines+that+self-heal+before+you+notice;Security-first+cloud-native+infrastructure)](https://git.io/typing-svg)
 
 **DevOps Engineer** — AWS Certified · EKS in Production · GitOps · IaC at Scale · AIOps
@@ -34,7 +37,7 @@ building:    Autonomous incident response pipelines · Production-grade GitOps s
 
 ## Featured Projects
 
-### 🤖 [AI-Powered Log Analysis & Autonomous Incident Response](https://github.com/kingswanzy2020/Projects)
+### 🤖 [AI-Powered Log Analysis & Autonomous Incident Response](https://github.com/kingswanzy2020/Projects/tree/main/ai-devops/ai-log-analysis-incident-response)
 **`Python` `Kubernetes` `FastAPI` `Ollama (LLM)` `Redis` `Fluent Bit` `GitHub API`**
 
 An autonomous SRE pipeline that ingests live Kubernetes error logs via Fluent Bit, runs local LLM root-cause diagnosis, and auto-files structured GitHub incident reports — end-to-end, without a human in the loop.
@@ -48,7 +51,7 @@ An autonomous SRE pipeline that ingests live Kubernetes error logs via Fluent Bi
 
 ---
 
-### 🔄 [GitOps Deployment Pipeline with ArgoCD](https://github.com/kingswanzy2020/Projects)
+### 🔄 [GitOps Deployment Pipeline with ArgoCD](https://github.com/kingswanzy2020/Projects/tree/main/kubernetes/gitops-argocd-pipeline)
 **`Kubernetes` `ArgoCD` `Kustomize` `Sealed Secrets` `GitHub Actions` `Renovate Bot`**
 
 Production-grade GitOps system where the cluster is the single source of truth. ArgoCD continuously reconciles desired vs actual state; any unauthorized change is reversed before an engineer could manually notice.
@@ -63,7 +66,7 @@ Production-grade GitOps system where the cluster is the single source of truth. 
 
 ---
 
-### 🏗️ [Enterprise Terraform GitOps Pipeline](https://github.com/kingswanzy2020/Projects)
+### 🏗️ [Enterprise Terraform GitOps Pipeline](https://github.com/kingswanzy2020/Projects/tree/main/infrastructure-as-code/enterprise-terraform-gitops)
 **`Terraform` `GitHub Actions` `AWS` `OIDC` `TFLint` `Checkov`**
 
 Modular IaC pipeline that provisions 30+ AWS resources across VPC, compute, storage, and IAM — governed by a full GitOps workflow where infrastructure changes go through the same review gates as application code.
@@ -77,7 +80,7 @@ Modular IaC pipeline that provisions 30+ AWS resources across VPC, compute, stor
 
 ---
 
-### 📊 [Kubernetes CI/CD Pipeline with Helm & Full Observability](https://github.com/kingswanzy2020/Projects)
+### 📊 [Kubernetes CI/CD Pipeline with Helm & Full Observability](https://github.com/kingswanzy2020/Projects/tree/main/kubernetes/helm-cicd-monitoring)
 **`Kubernetes` `Jenkins` `Helm` `Prometheus` `Grafana` `Alertmanager` `Docker`**
 
 End-to-end pipeline from code commit to monitored production deployment. Jenkins handles the build and delivery; a Helm-managed observability stack surfaces the RED method metrics needed to know if the deployment is actually healthy.
@@ -91,7 +94,7 @@ End-to-end pipeline from code commit to monitored production deployment. Jenkins
 
 ---
 
-### ☁️ [AWS Native CI/CD Pipeline](https://github.com/kingswanzy2020/Projects/tree/main/Nextwork%20Projects/DevOps%20Challenge(CI_CD%20Pipepline)%20)
+### ☁️ [AWS Native CI/CD Pipeline](https://github.com/kingswanzy2020/Projects/tree/main/ci-cd/aws-devops-cicd-challenge)
 **`CodePipeline` `CodeBuild` `CodeDeploy` `CodeArtifact` `CloudFormation` `S3` `EC2`**
 
 Fully AWS-native delivery pipeline — commit to production without leaving the AWS ecosystem. Dependency management runs through CodeArtifact so no build ever touches a public package registry.
@@ -105,7 +108,7 @@ Fully AWS-native delivery pipeline — commit to production without leaving the 
 
 ---
 
-### 🔍 [AI-Powered Pull Request Code Review](https://github.com/kingswanzy2020/Projects/tree/main/Nextwork%20Projects/Review%20GitHub%20Pull%20Requests%20with%20Gemini)
+### 🔍 [AI-Powered Pull Request Code Review](https://github.com/kingswanzy2020/Projects/tree/main/ci-cd/ai-pr-review-gemini)
 **`GitHub Actions` `Python` `Gemini 2.5 API` `github-script`**
 
 Automated code reviewer wired into the PR workflow. Every PR triggers a diff analysis via Gemini 2.5; the workflow parses structured output, labels by severity (Critical / Warning / Good), and posts the review as a PR comment — all before a human reviewer touches the code.
@@ -118,7 +121,7 @@ Automated code reviewer wired into the PR workflow. Every PR triggers a diff ana
 
 ---
 
-### ⚡ [Production Serverless Lead Capture Platform](https://github.com/kingswanzy2020/Projects/tree/main/Serveless%20Lead%20Capture%20on%20AWS)
+### ⚡ [Production Serverless Lead Capture Platform](https://github.com/kingswanzy2020/Projects/tree/main/aws/serverless-lead-capture)
 **`Lambda` `API Gateway` `DynamoDB` `S3` `CloudFront` `Route 53` `SES` `ACM`**
 
 End-to-end serverless platform live at a custom domain (`kahmedt.com`) with global CDN delivery. Visitor submits a form → Lambda fires SES email to the business owner, writes the lead to DynamoDB, and logs to CloudWatch — all within milliseconds, with no servers to manage.
@@ -128,6 +131,26 @@ End-to-end serverless platform live at a custom domain (`kahmedt.com`) with glob
 | 🌍 **Production-deployed** | Live on `kahmedt.com` with ACM TLS, CloudFront, and Route 53 DNS |
 | 🔒 **Least-privilege Lambda** | Role scoped to exactly `dynamodb:PutItem` + `ses:SendEmail` — nothing more |
 | 🛠️ **Real debugging** | Resolved production CORS misconfiguration, DNS propagation delays, and ACM us-east-1 region constraint |
+
+---
+
+## 🗺️ Repository Map
+
+All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/Projects)** repo is the portfolio hub — full write-ups, architecture diagrams, and KPIs for every project — while these standalone repos hold the live code:
+
+| Category | Repository | What it is |
+|---|---|---|
+| 📁 **Portfolio Hub** | [Projects](https://github.com/kingswanzy2020/Projects) | All project write-ups: `ci-cd/` · `kubernetes/` · `infrastructure-as-code/` · `aws/` · `ai-devops/` · `observability/` |
+| 🤖 SRE / AIOps | [autonomous-sre](https://github.com/kingswanzy2020/autonomous-sre) | Autonomous incident response inside a Kubernetes cluster |
+| 🔄 GitOps | [gitops-demo](https://github.com/kingswanzy2020/gitops-demo) | Git source-of-truth repo driving the ArgoCD pipeline |
+| 🏗️ IaC | [terraform-gitops](https://github.com/kingswanzy2020/terraform-gitops) | Enterprise Terraform workflow — plan on PR, apply on merge |
+| ☸️ Kubernetes | [fittrack](https://github.com/kingswanzy2020/fittrack) | Helm chart + Jenkins pipeline for the monitored FitTrack app |
+| 🔁 CI/CD | [cicd-pipeline-app](https://github.com/kingswanzy2020/cicd-pipeline-app) | App code behind the Jenkins + SonarQube pipeline |
+| 🔁 CI/CD | [nextwork-web-project](https://github.com/kingswanzy2020/nextwork-web-project) | Java web app behind the AWS CodePipeline build |
+| 🧠 AI / RAG | [nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api) | RAG API with its own CI/CD pipeline |
+| 🛡️ Security | [security-scanner](https://github.com/kingswanzy2020/security-scanner) | AI-powered vulnerability scanner |
+| 🏛️ Platform | [petclinic-platform](https://github.com/kingswanzy2020/petclinic-platform) | Infrastructure code for an 8-service microservices platform |
+| 🧪 Sandbox | [Lab](https://github.com/kingswanzy2020/Lab) | Experiments and learning scratchpad |
 
 ---
 
@@ -207,3 +230,5 @@ End-to-end serverless platform live at a custom domain (`kahmedt.com`) with glob
 [![](https://visitcount.itsvg.in/api?id=kingswanzy2020&icon=0&color=1)](https://visitcount.itsvg.in)
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:39D353,50:1F6FEB,100:1a1b27&height=90&section=footer" alt="footer" width="100%"/>
