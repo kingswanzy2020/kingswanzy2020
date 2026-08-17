@@ -37,6 +37,23 @@ building:    Autonomous incident response pipelines · Production-grade GitOps s
 
 ## Featured Projects
 
+*Five projects that best show how I work. The full catalogue — every write-up, architecture diagram, and KPI table — lives in the **[Projects](https://github.com/kingswanzy2020/Projects)** hub.*
+
+### 🚢 [Production Three-Tier App on Amazon EKS](https://github.com/kingswanzy2020/Projects/tree/main/kubernetes/production-app-eks)
+**`Amazon EKS` `eksctl` `IRSA` `Helm` `cert-manager` `external-dns` `EBS CSI` `HPA` `Prometheus` `Grafana`**
+
+A three-tier application served live at a real domain over HTTPS. Every part of the front door — DNS record, TLS certificate, load balancer — is created by an in-cluster controller reacting to a Kubernetes resource, not by a human in the AWS console.
+
+| Outcome | Detail |
+|---|---|
+| 🌐 **Live public HTTPS endpoint** | Route 53 → ALB provisioned from an Ingress by the AWS Load Balancer Controller |
+| 🔐 **Hands-off certificate lifecycle** | cert-manager issues and auto-renews via DNS-01 — validates before the domain even resolves to the cluster |
+| 📈 **Verified autoscaling** | Load test drove frontend CPU to 60% against a 50% target; HPA scaled 2 → 3 replicas, then back down |
+| 🛡️ **Per-service-account IAM** | IRSA scopes each controller's permissions instead of handing pods the node instance profile |
+| 💾 **Data that survives rescheduling** | PostgreSQL on an EBS volume bound `WaitForFirstConsumer`, guaranteeing the volume lands in the pod's AZ |
+
+---
+
 ### 🤖 [AI-Powered Log Analysis & Autonomous Incident Response](https://github.com/kingswanzy2020/Projects/tree/main/ai-devops/ai-log-analysis-incident-response)
 **`Python` `Kubernetes` `FastAPI` `Ollama (LLM)` `Redis` `Fluent Bit` `GitHub API`**
 
@@ -94,43 +111,7 @@ End-to-end pipeline from code commit to monitored production deployment. Jenkins
 
 ---
 
-### ☁️ [AWS Native CI/CD Pipeline](https://github.com/kingswanzy2020/Projects/tree/main/ci-cd/aws-devops-cicd-challenge)
-**`CodePipeline` `CodeBuild` `CodeDeploy` `CodeArtifact` `CloudFormation` `S3` `EC2`**
-
-Fully AWS-native delivery pipeline — commit to production without leaving the AWS ecosystem. Dependency management runs through CodeArtifact so no build ever touches a public package registry.
-
-| Outcome | Detail |
-|---|---|
-| 📦 **60% higher deployment frequency** | Automated pipeline removes the friction of manual release coordination |
-| 🔐 **Supply chain secured** | Private CodeArtifact mirror; no direct public registry access at build time |
-| ♻️ **One-command infra** | Entire stack (pipeline + EC2 + networking) reproduced from a single CloudFormation template |
-| ↩️ **Rollback on failure** | Versioned S3 artifacts and CodeDeploy rollback hooks for zero-downtime recovery |
-
----
-
-### 🔍 [AI-Powered Pull Request Code Review](https://github.com/kingswanzy2020/Projects/tree/main/ci-cd/ai-pr-review-gemini)
-**`GitHub Actions` `Python` `Gemini 2.5 API` `github-script`**
-
-Automated code reviewer wired into the PR workflow. Every PR triggers a diff analysis via Gemini 2.5; the workflow parses structured output, labels by severity (Critical / Warning / Good), and posts the review as a PR comment — all before a human reviewer touches the code.
-
-| Outcome | Detail |
-|---|---|
-| 🐛 **Real vulnerability detection** | Caught SQL injection and shell injection vulnerabilities in test diffs |
-| 🏷️ **Machine-readable triage** | Structured Gemini output parsed to auto-label PRs by AI-assessed severity |
-| 🔑 **Zero credentials exposed** | API key stored as a GitHub Secret; no secrets in workflow YAML or diff output |
-
----
-
-### ⚡ [Production Serverless Lead Capture Platform](https://github.com/kingswanzy2020/Projects/tree/main/aws/serverless-lead-capture)
-**`Lambda` `API Gateway` `DynamoDB` `S3` `CloudFront` `Route 53` `SES` `ACM`**
-
-End-to-end serverless platform that ran in production at a custom domain (`kahmedt.com`) with global CDN delivery. Visitor submits a form → Lambda fires SES email to the business owner, writes the lead to DynamoDB, and logs to CloudWatch — all within milliseconds, with no servers to manage.
-
-| Outcome | Detail |
-|---|---|
-| 🌍 **Production-deployed** | Ran at `kahmedt.com` with ACM TLS, CloudFront, and Route 53 DNS (decommissioned after project completion) |
-| 🔒 **Least-privilege Lambda** | Role scoped to exactly `dynamodb:PutItem` + `ses:SendEmail` — nothing more |
-| 🛠️ **Real debugging** | Resolved production CORS misconfiguration, DNS propagation delays, and ACM us-east-1 region constraint |
+<sub>More in the portfolio hub: an [AWS-native CodePipeline delivery chain](https://github.com/kingswanzy2020/Projects/tree/main/ci-cd/aws-devops-cicd-challenge), [AI pull-request review with Gemini](https://github.com/kingswanzy2020/Projects/tree/main/ci-cd/ai-pr-review-gemini), a [production serverless lead-capture platform](https://github.com/kingswanzy2020/Projects/tree/main/aws/serverless-lead-capture), and ~20 more.</sub>
 
 ---
 
@@ -140,7 +121,7 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 
 | Category | Repository | What it is |
 |---|---|---|
-| 📁 **Portfolio Hub** | [Projects](https://github.com/kingswanzy2020/Projects) | All project write-ups: `ci-cd/` · `kubernetes/` · `infrastructure-as-code/` · `aws/` · `ai-devops/` · `observability/` |
+| 📁 **Portfolio Hub** | [Projects](https://github.com/kingswanzy2020/Projects) | Every project write-up: `kubernetes/` · `ci-cd/` · `infrastructure-as-code/` · `aws/` · `ai-devops/` · `observability/` |
 | 🤖 SRE / AIOps | [autonomous-sre](https://github.com/kingswanzy2020/autonomous-sre) | Autonomous incident response inside a Kubernetes cluster |
 | 🔄 GitOps | [gitops-demo](https://github.com/kingswanzy2020/gitops-demo) | Git source-of-truth repo driving the ArgoCD pipeline |
 | 🏗️ IaC | [terraform-gitops](https://github.com/kingswanzy2020/terraform-gitops) | Enterprise Terraform workflow — plan on PR, apply on merge |
