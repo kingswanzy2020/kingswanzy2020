@@ -9,8 +9,9 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmed%20Tetteh-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-tetteh-76a538126)
 [![Email](https://img.shields.io/badge/Email-kingsleyswanzy%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kingsleyswanzy@gmail.com)
-[![CKA](https://img.shields.io/badge/CNCF-Certified%20Kubernetes%20Administrator-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://www.cncf.io/certification/cka/)
-[![AWS SAA](https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](https://aws.amazon.com/certification/)
+[![CKA](https://img.shields.io/badge/CNCF-Certified%20Kubernetes%20Administrator-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://www.credly.com/badges/8717d9d9-a9ab-422e-a463-54a24d626c1a/public_url)
+[![AWS SAA](https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](https://www.credly.com/badges/c33ee367-fc26-4d1a-acff-ef4eb7feb159/public_url)
+[![Credly](https://img.shields.io/badge/Credly-Verified%20Badges-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/ahmed-tetteh)
 [![Location](https://img.shields.io/badge/📍-Daejeon%2C%20South%20Korea-4285F4?style=flat-square)](#)
 
 </div>
@@ -189,15 +190,17 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 
 ## 🎓 Certifications
 
-| Certification | Issuer |
-|---|---|
-| ✅ Certified Kubernetes Administrator (CKA) | The Linux Foundation / CNCF |
-| ✅ AWS Certified Solutions Architect – Associate | Amazon Web Services |
-| ✅ AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services |
-| ✅ Docker Training — Absolute Beginner | KodeKloud |
-| ✅ KodeKloud Engineer — Docker Level 1 | KodeKloud |
-| ✅ Introduction to DevOps | IBM |
-| ✅ Hands-on Linux Commands & Shell Scripting | IBM |
+Full badge collection verified on [Credly](https://www.credly.com/users/ahmed-tetteh).
+
+| Certification | Issuer | Verify |
+|---|---|---|
+| ✅ Certified Kubernetes Administrator (CKA) | The Linux Foundation / CNCF | [Credly](https://www.credly.com/badges/8717d9d9-a9ab-422e-a463-54a24d626c1a/public_url) |
+| ✅ AWS Certified Solutions Architect – Associate | Amazon Web Services | [Credly](https://www.credly.com/badges/c33ee367-fc26-4d1a-acff-ef4eb7feb159/public_url) |
+| ✅ AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services | |
+| ✅ Docker Training — Absolute Beginner | KodeKloud | |
+| ✅ KodeKloud Engineer — Docker Level 1 | KodeKloud | |
+| ✅ Introduction to DevOps | IBM | |
+| ✅ Hands-on Linux Commands & Shell Scripting | IBM | |
 
 ---
 
