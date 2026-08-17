@@ -5,10 +5,11 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=1F8EF1&center=true&vCenter=true&width=780&lines=Ahmed+Tetteh+—+DevOps+Engineer;AWS+%7C+Kubernetes+%7C+GitOps+%7C+Terraform;Pipelines+that+self-heal+before+you+notice;Security-first+cloud-native+infrastructure)](https://git.io/typing-svg)
 
-**DevOps Engineer** — AWS Certified · EKS in Production · GitOps · IaC at Scale · AIOps
+**DevOps Engineer** — CKA Certified · AWS Certified · EKS in Production · GitOps · IaC at Scale · AIOps
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ahmed%20Tetteh-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-tetteh-76a538126)
 [![Email](https://img.shields.io/badge/Email-kingsleyswanzy%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:kingsleyswanzy@gmail.com)
+[![CKA](https://img.shields.io/badge/CNCF-Certified%20Kubernetes%20Administrator-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://www.cncf.io/certification/cka/)
 [![AWS SAA](https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=flat-square&logo=amazonaws&logoColor=white)](https://aws.amazon.com/certification/)
 [![Location](https://img.shields.io/badge/📍-Daejeon%2C%20South%20Korea-4285F4?style=flat-square)](#)
 
@@ -29,7 +30,7 @@ iac:         Terraform (modular, GitOps-managed) · CloudFormation · AWS CDK
 cicd:        GitHub Actions · AWS CodePipeline · Jenkins · ArgoCD
 security:    OIDC federation · IAM least-privilege · RBAC · Bitnami Sealed Secrets
 monitoring:  Prometheus · Grafana · Alertmanager · CloudWatch
-certs:       AWS Solutions Architect Associate · AWS Cloud Practitioner
+certs:       CKA (Certified Kubernetes Administrator) · AWS Solutions Architect Associate · AWS Cloud Practitioner
 building:    Autonomous incident response pipelines · Production-grade GitOps systems
 ```
 
@@ -190,6 +191,7 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 
 | Certification | Issuer |
 |---|---|
+| ✅ Certified Kubernetes Administrator (CKA) | The Linux Foundation / CNCF |
 | ✅ AWS Certified Solutions Architect – Associate | Amazon Web Services |
 | ✅ AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services |
 | ✅ Docker Training — Absolute Beginner | KodeKloud |
