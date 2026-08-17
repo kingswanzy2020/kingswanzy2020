@@ -192,15 +192,15 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 
 Full badge collection verified on [Credly](https://www.credly.com/users/ahmed-tetteh).
 
-| Certification | Issuer | Verify |
-|---|---|---|
-| ✅ Certified Kubernetes Administrator (CKA) | The Linux Foundation / CNCF | [Credly](https://www.credly.com/badges/8717d9d9-a9ab-422e-a463-54a24d626c1a/public_url) |
-| ✅ AWS Certified Solutions Architect – Associate | Amazon Web Services | [Credly](https://www.credly.com/badges/c33ee367-fc26-4d1a-acff-ef4eb7feb159/public_url) |
-| ✅ AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services | |
-| ✅ Docker Training — Absolute Beginner | KodeKloud | |
-| ✅ KodeKloud Engineer — Docker Level 1 | KodeKloud | |
-| ✅ Introduction to DevOps | IBM | |
-| ✅ Hands-on Linux Commands & Shell Scripting | IBM | |
+| Certification | Issuer |
+|---|---|
+| ✅ Certified Kubernetes Administrator (CKA) | The Linux Foundation / CNCF |
+| ✅ AWS Certified Solutions Architect – Associate | Amazon Web Services |
+| ✅ AWS Certified Cloud Practitioner (CLF-C02) | Amazon Web Services |
+| ✅ Docker Training — Absolute Beginner | KodeKloud |
+| ✅ KodeKloud Engineer — Docker Level 1 | KodeKloud |
+| ✅ Introduction to DevOps | IBM |
+| ✅ Hands-on Linux Commands & Shell Scripting | IBM |
 
 ---
 
