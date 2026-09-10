@@ -127,16 +127,15 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 | ☸️ Kubernetes | [production-app-eks](https://github.com/kingswanzy2020/production-app-eks) | Cluster config, IAM policies, and the Helm chart behind the production EKS app |
 | 🤖 SRE / AIOps | [autonomous-sre](https://github.com/kingswanzy2020/autonomous-sre) | Autonomous incident response inside a Kubernetes cluster |
 | 🔄 GitOps | [gitops-demo](https://github.com/kingswanzy2020/gitops-demo) | Git source-of-truth repo driving the ArgoCD pipeline |
-| 🔄 GitOps | [devops-pipeline-manifests](https://github.com/kingswanzy2020/devops-pipeline-manifests) | Manifests ArgoCD syncs into the cluster. Jenkins commits each new image tag here |
 | 🏗️ IaC | [terraform-gitops](https://github.com/kingswanzy2020/terraform-gitops) | Enterprise Terraform workflow — plan on PR, apply on merge |
 | 🏗️ IaC | [nextwork-terraform-s3](https://github.com/kingswanzy2020/nextwork-terraform-s3) | Terraform fundamentals — the init/plan/apply lifecycle on a locked-down S3 bucket |
 | ☸️ Kubernetes | [fittrack](https://github.com/kingswanzy2020/fittrack) | Helm chart + Jenkins pipeline for the monitored FitTrack app |
 | 🔁 CI/CD | [cicd-pipeline-app](https://github.com/kingswanzy2020/cicd-pipeline-app) | App code behind the Jenkins + SonarQube pipeline |
-| 🔁 CI/CD | [devops-pipeline-app](https://github.com/kingswanzy2020/devops-pipeline-app) | Flask + Postgres API, multi-stage Dockerfile, and the Jenkinsfile that hands each build to ArgoCD through Git |
 | 🔁 CI/CD | [nextwork-web-project](https://github.com/kingswanzy2020/nextwork-web-project) | Java web app behind the AWS CodePipeline build |
 | 🧠 AI / RAG | [nextwork-rag-api](https://github.com/kingswanzy2020/nextwork-rag-api) | RAG API with its own CI/CD pipeline |
 | 🧠 AI / RAG | [ai-cicd-github](https://github.com/kingswanzy2020/ai-cicd-github) | GitHub Actions pipeline with an AI code-review stage |
 | 📊 Observability | [mcp-data-series](https://github.com/kingswanzy2020/mcp-data-series) | PostgreSQL dataset behind Grafana dashboards built over MCP |
+| 📊 Observability | [delivery-scoreboard](https://github.com/kingswanzy2020/delivery-scoreboard) | DORA delivery metrics as DuckDB SQL — the AI-derived one withheld until its labels pass an 18/20 accuracy gate |
 | 🛡️ Security | [security-scanner](https://github.com/kingswanzy2020/security-scanner) | AI-powered vulnerability scanner |
 | ☁️ AWS | [three-tier-web-architecture](https://github.com/kingswanzy2020/three-tier-web-architecture) | Serverless three-tier app — CloudFront, API Gateway + Lambda, DynamoDB |
 | ☁️ AWS | [cross-account-ecr-app](https://github.com/kingswanzy2020/cross-account-ecr-app) | Cross-account image sharing via private ECR and Elastic Beanstalk |
