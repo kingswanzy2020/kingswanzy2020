@@ -138,6 +138,7 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 | 📊 Observability | [mcp-data-series](https://github.com/kingswanzy2020/mcp-data-series) | PostgreSQL dataset behind Grafana dashboards built over MCP |
 | 📊 Observability | [delivery-scoreboard](https://github.com/kingswanzy2020/delivery-scoreboard) | DORA delivery metrics as DuckDB SQL — the AI-derived one withheld until its labels pass an 18/20 accuracy gate |
 | 🛡️ Security | [security-scanner](https://github.com/kingswanzy2020/security-scanner) | AI-powered vulnerability scanner |
+| 🛡️ Security | [iam-boundary-proof](https://github.com/kingswanzy2020/iam-boundary-proof) | IAM permissions boundary evidence package — policy-simulator output proving a widening is allowed without the boundary and refused with it |
 | ☁️ AWS | [three-tier-web-architecture](https://github.com/kingswanzy2020/three-tier-web-architecture) | Serverless three-tier app — CloudFront, API Gateway + Lambda, DynamoDB |
 | ☁️ AWS | [cross-account-ecr-app](https://github.com/kingswanzy2020/cross-account-ecr-app) | Cross-account image sharing via private ECR and Elastic Beanstalk |
 | ☁️ AWS | [eb-docker-webapp](https://github.com/kingswanzy2020/eb-docker-webapp) | Containerized web app on Elastic Beanstalk's Docker platform |
