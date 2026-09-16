@@ -128,6 +128,7 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 | ☸️ Kubernetes | [production-app-eks](https://github.com/kingswanzy2020/production-app-eks) | Cluster config, IAM policies, and the Helm chart behind the production EKS app |
 | 🤖 SRE / AIOps | [autonomous-sre](https://github.com/kingswanzy2020/autonomous-sre) | Autonomous incident response inside a Kubernetes cluster |
 | 🔄 GitOps | [gitops-demo](https://github.com/kingswanzy2020/gitops-demo) | Git source-of-truth repo driving the ArgoCD pipeline |
+| 🔄 GitOps | [telco-platform-gitops](https://github.com/kingswanzy2020/telco-platform-gitops) | ArgoCD manifests for an Open5GS 5G core: Operator custom resources, network slices, and subscribers, all declared in Git |
 | 🏗️ IaC | [terraform-gitops](https://github.com/kingswanzy2020/terraform-gitops) | Enterprise Terraform workflow — plan on PR, apply on merge |
 | 🏗️ IaC | [nextwork-terraform-s3](https://github.com/kingswanzy2020/nextwork-terraform-s3) | Terraform fundamentals — the init/plan/apply lifecycle on a locked-down S3 bucket |
 | ☸️ Kubernetes | [fittrack](https://github.com/kingswanzy2020/fittrack) | Helm chart + Jenkins pipeline for the monitored FitTrack app |
