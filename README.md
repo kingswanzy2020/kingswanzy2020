@@ -131,6 +131,7 @@ All my work, organized. The 📁 **[Projects](https://github.com/kingswanzy2020/
 | 🔄 GitOps | [telco-platform-gitops](https://github.com/kingswanzy2020/telco-platform-gitops) | ArgoCD manifests for an Open5GS 5G core: Operator custom resources, network slices, and subscribers, all declared in Git |
 | 🏗️ IaC | [terraform-gitops](https://github.com/kingswanzy2020/terraform-gitops) | Enterprise Terraform workflow — plan on PR, apply on merge |
 | 🏗️ IaC | [nextwork-terraform-s3](https://github.com/kingswanzy2020/nextwork-terraform-s3) | Terraform fundamentals — the init/plan/apply lifecycle on a locked-down S3 bucket |
+| ☸️ Kubernetes | [sample-fastapi-react](https://github.com/kingswanzy2020/sample-fastapi-react) | FastAPI + React starter taken to production: Terraform, Ansible, a Helm chart for kind and EKS, and GitHub Actions CI/CD with SHA-tagged images |
 | ☸️ Kubernetes | [fittrack](https://github.com/kingswanzy2020/fittrack) | Helm chart + Jenkins pipeline for the monitored FitTrack app |
 | 🔁 CI/CD | [cicd-pipeline-app](https://github.com/kingswanzy2020/cicd-pipeline-app) | App code behind the Jenkins + SonarQube pipeline |
 | 🔁 CI/CD | [nextwork-web-project](https://github.com/kingswanzy2020/nextwork-web-project) | Java web app behind the AWS CodePipeline build |
