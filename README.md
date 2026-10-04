@@ -71,18 +71,18 @@ An autonomous SRE pipeline that ingests live Kubernetes error logs via Fluent Bi
 
 ---
 
-### 🔄 [GitOps Deployment Pipeline with ArgoCD](https://github.com/kingswanzy2020/Projects/tree/main/kubernetes/gitops-argocd-pipeline)
-**`Kubernetes` `ArgoCD` `Kustomize` `Sealed Secrets` `GitHub Actions` `Renovate Bot`**
+### 🛠️ [FastAPI + React: Template to Production on Kubernetes](https://github.com/kingswanzy2020/Projects/tree/main/kubernetes/fastapi-react-project)
+**`Kubernetes` `Helm` `Amazon EKS` `Terraform` `Ansible` `GitHub Actions` `OIDC` `ECR` `Docker`**
 
-Production-grade GitOps system where the cluster is the single source of truth. ArgoCD continuously reconciles desired vs actual state; any unauthorized change is reversed before an engineer could manually notice.
+A personal project: an open-source FastAPI + React + Postgres + Celery starter that only ran under Docker Compose, taken to production in eight stages. Terraform and Ansible put it on EC2, one Helm chart runs it on a local kind cluster and on EKS, and GitHub Actions ships it with every image named after its commit.
 
 | Outcome | Detail |
 |---|---|
-| 🔁 **Sub-10s drift correction** | Self-healing and pruning revert unauthorized cluster changes automatically |
-| 🔒 **100% plaintext secrets eliminated** | Bitnami Sealed Secrets encrypts credentials with asymmetric RSA before they touch Git |
-| 🤖 **Zero manual deployment steps** | GitHub Actions + Renovate Bot route all changes through auditable, automated PRs |
-| 📣 **Real-time deploy visibility** | ArgoCD Notifications posts pending/success/failure statuses to GitHub across 3 sync phases |
-| 🗄️ **Safe DB migrations** | PreSync hooks validate database migrations before any deployment proceeds |
+| 🛑 **Failed releases never take traffic** | A release asking for a missing image left the new pod in `ImagePullBackOff` while the old ReplicaSet stayed 2/2 Ready |
+| 🔖 **Every pod traces to one commit** | Images tagged with the full git SHA in immutable ECR repos; the app serves its own SHA at `/api/v1/version` |
+| 🔁 **Rollback tested on every PR** | CI installs the chart on kind inside the runner and forces a bad upgrade that must roll itself back |
+| 🚫 **No long-lived credentials** | GitHub OIDC with one IAM role per job; the deploy role is confined to a single namespace |
+| 📈 **Verified under failure and load** | Deleted pods back in 15 seconds; HPA scaled the backend 2 → 6 replicas and back |
 
 ---
 
